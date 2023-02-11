@@ -1,0 +1,686 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  line-height: 1;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 40px;
+  border: none;
+  background-color: #dc3c45;
+  color: white;
+  margin-left: 12%;
+  text-decoration: none;
+  margin-top: 10rem;
+}
+
+.btn-secondry {
+  margin: 0;
+  background-color: white;
+  color: #dc3c45;
+  outline: 1px solid #dc3c45;
+}
+
+.btn-three {
+  border: 1px solid white;
+}
+
+.flex-30 {
+  flex: 0 28%;
+}
+
+.flex-48 {
+  flex: 0 48%;
+}
+
+.flex-70 {
+  flex: 0 70%;
+}
+
+.flex-25 {
+  flex: 0 25%;
+}
+
+.padding-1 {
+  padding: 3rem 0;
+}
+
+.flex-23 {
+  flex: 0 23%;
+}
+
+.service-1-1 {
+  background-color: #dc3c45;
+  padding: 2.4rem;
+  color: white;
+  text-align: center;
+}
+.service-1-1 h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+.service-1-1 p {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.product-header {
+  text-align: center;
+}
+.product-header h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.product-header p {
+  opacity: 0.5;
+  padding: 1.2rem 0;
+}
+
+.service-1-2 span {
+  font-family: 1.5rem;
+  color: #dc3c45;
+  font-weight: 700;
+}
+.service-1-2 h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.service-1-2 p {
+  opacity: 0.5;
+  padding-top: 1.5rem;
+  line-height: 1.5;
+  font-size: 1.2;
+}
+.service-1-2 img {
+  width: 100%;
+}
+
+.product-1 {
+  padding: 2rem;
+}
+.product-1 img {
+  width: 80px;
+}
+.product-1 h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+.product-1 p {
+  opacity: 0.5;
+}
+
+.deal {
+  background-color: #dc3c45;
+  padding: 2rem 0;
+  color: white;
+}
+.deal hr {
+  height: 2.5rem;
+}
+.deal h3 {
+  margin-top: 1.5rem;
+}
+.deal p {
+  margin-top: 1.5rem;
+  opacity: 0.5;
+}
+.deal div {
+  margin-top: 1.5rem;
+}
+
+.awarded {
+  text-align: center;
+  margin: 2rem 0;
+  line-height: 1.3;
+}
+.awarded h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.3rem 0;
+}
+.awarded p {
+  font-size: 1.2rem;
+  opacity: 0.5;
+  padding: 0 10rem;
+}
+
+.hexagon {
+  line-height: 1;
+  text-align: center;
+}
+.hexagon img {
+  width: 80px;
+  padding: 1rem 0;
+}
+.hexagon h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.hexagon p {
+  opacity: 0.5;
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+.business img {
+  width: 100%;
+}
+
+.bg-color {
+  background-color: aliceblue;
+}
+.bg-color p {
+  text-align: center;
+  padding: 2rem 5rem;
+  opacity: 0.8;
+  line-height: 1.3;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.tag {
+  text-align: center;
+  margin: 4rem 0;
+  border: 1px solid rgb(212, 201, 201);
+  background-color: white;
+  padding: 2rem 0;
+}
+.tag h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-bottom: 1.2rem;
+}
+.tag span {
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 2rem 0;
+}
+.tag h6 {
+  opacity: 0.6;
+  padding: 1.2rem;
+}
+.tag ul {
+  padding-top: 1.3rem;
+}
+.tag li {
+  padding-top: 1.3rem;
+}
+.tag .btn-div {
+  margin-top: 2rem;
+}
+
+.question-2 {
+  text-align: center;
+}
+.question-2 h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.question-2 p {
+  font-size: 1.2rem;
+  opacity: 0.5;
+  padding: 1.3rem 0;
+}
+
+.question {
+  border: 1px solid rgb(184, 169, 169);
+  padding: 1.5rem 0rem;
+  margin: 2rem 0;
+  display: grid;
+}
+.question h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+.question p {
+  font-size: 1rem;
+  line-height: 1.4;
+  opacity: 0.6;
+  padding: 1rem;
+}
+
+.vision-1 img {
+  width: 100%;
+  height: 300px;
+}
+.vision-1 h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.vision-1 p {
+  padding: 1rem 0;
+  line-height: 1;
+  opacity: 0.7;
+}
+.vision-1 i {
+  font-size: 2.5rem;
+  padding: 1.4rem;
+}
+
+.team-bg {
+  background-color: rgb(240, 232, 232);
+  padding: 3rem 0;
+}
+
+.team-head {
+  text-align: center;
+}
+.team-head h5 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.team-head p {
+  padding: 1.2rem 0;
+}
+
+.team-bio {
+  background-color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+.team-bio img {
+  width: 100%;
+}
+.team-bio h6 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 1.2rem 0;
+}
+.team-bio span {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.story {
+  text-align: center;
+  padding: 3rem 0;
+}
+.story h4 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.story p {
+  opacity: 0.7;
+  line-height: 1.2;
+  padding: 2rem 10rem;
+}
+.story a {
+  margin: 0;
+}
+
+.error-1 {
+  text-align: center;
+}
+.error-1 h5 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.error-1 p {
+  opacity: 0.6;
+  padding: 1.4rem 10rem;
+  line-height: 1.4;
+}
+
+.error-2 i {
+  font-size: 2.8rem;
+  border: 1px solid black;
+  padding: 2rem;
+  border-radius: 50%;
+  background-color: rgb(151, 139, 139);
+  color: rgb(211, 11, 11);
+  border: none;
+}
+.error-2 h6 {
+  font-size: 1.3rem;
+  padding: 1.3rem;
+}
+
+.contact-div {
+  text-align: center;
+}
+.contact-div h5 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.contact-div p {
+  font-size: 1.2rem;
+  opacity: 0.6;
+  padding: 1.5rem 0;
+}
+
+.contact-bg {
+  background-color: rgb(218, 208, 208);
+}
+
+.map iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  border-radius: 10px;
+  border-color: lightgrey;
+}
+.form .massage {
+  padding-bottom: 10rem;
+  margin-bottom: 2.5rem;
+}
+.form a {
+  margin-left: 10rem;
+  padding: 1rem;
+}
+
+body {
+  line-height: 1;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  background-color: #dc3c45;
+  color: white;
+  padding: 10px 0;
+}
+.heading span {
+  margin-left: 10px;
+}
+.heading a {
+  padding-left: 20px;
+  color: white;
+}
+
+.sub-heading {
+  padding: 20px 0px;
+  background-color: #f2f2f2;
+}
+.sub-heading a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+.sub-heading select {
+  border: none;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #f2f2f2;
+}
+.sub-heading a:hover {
+  background-color: #dc3c45;
+  padding: 1.8rem 0.5rem;
+  color: white;
+}
+.sub-heading span {
+  color: #dc3c45;
+}
+
+.hero {
+  text-align: left;
+  background: url(../assets/media/banner-1.jpg) 50% 50% no-repeat;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  padding: 3rem 0;
+  height: 27rem;
+  top: 1rem;
+}
+.hero h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-left: 12%;
+  margin-top: 10%;
+}
+.hero p {
+  font-size: 20px;
+  margin-left: 12%;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.Service-1 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.Service-1 h3 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+.Service-1 p {
+  color: rgb(177, 144, 144);
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.article-0-1 {
+  border: 1px solid rgb(190, 174, 174);
+  padding: 2rem 0;
+  margin: 1rem 0;
+  text-align: center;
+}
+.article-0-1 h4 {
+  padding: 0.75rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.article-0-1 img {
+  width: 80px;
+  padding: 1rem 0;
+}
+.article-0-1 p {
+  margin-bottom: 2rem;
+}
+
+.solution {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: rgb(247, 237, 225);
+  margin: 2rem 0;
+}
+.solution h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.solution p {
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  opacity: 0.5;
+  padding: 0 12rem;
+}
+
+.team-sec {
+  margin: 6rem 0;
+}
+
+.div-0-1 {
+  text-align: center;
+}
+.div-0-1 img {
+  width: 100px;
+}
+.div-0-1 h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+.div-0-1 p {
+  padding: 2rem 0;
+}
+
+.div-1-1 img {
+  width: 100%;
+}
+
+.best-busi {
+  background-color: #dc3c45;
+  padding: 2rem 0;
+  color: white;
+  align-items: center;
+  margin: 2rem 0;
+}
+.best-busi h3 {
+  font-size: 1.7rem;
+  color: white;
+  font-weight: 700;
+}
+.best-busi p {
+  font-size: 1.3rem;
+  padding: 1.5rem 0;
+}
+
+.request {
+  padding-top: 2.5rem;
+}
+
+.leader {
+  margin-top: 4rem;
+}
+.leader img {
+  width: 100%;
+}
+.leader h3 {
+  font-size: 2rem;
+  padding-top: 4.5rem;
+  font-weight: 700;
+}
+.leader p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding-top: 2rem;
+  opacity: 0.5;
+}
+
+.client {
+  background-color: rgb(240, 232, 232);
+  text-align: center;
+}
+.client div {
+  padding: 3rem 0;
+}
+.client img {
+  width: 10%;
+  padding: 0 1.9rem;
+  filter: grayscale(100%);
+}
+.client img:hover {
+  filter: grayscale(0%);
+}
+.client h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+footer {
+  background-color: rgba(52, 51, 58, 0.842);
+  color: white;
+  padding-top: 1.5rem;
+  padding-bottom: 7rem;
+}
+footer h6 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+footer span {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-div {
+  padding: 2rem 0;
+}
+.footer-div h5 {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.footer-div li {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.footer-div a {
+  padding-right: 1.5rem;
+  color: white;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
